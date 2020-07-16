@@ -1,37 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <title>I am NinaKoo</title>
+ 
+  <title>My Website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  body {
+    font: 28px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+  }
+  .bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+  }
+  .bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+  }
+  .bg-4 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: darkturquoise !important;
+  }
+  </style>
 </head>
 <body>
-  hello world  
- <img src="https://images.pexels.com/photos/1170986/pexels-photo-1170986.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-<div class="alert alert-primary" role="alert">
-  A simple primary alert—check it out!
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">ME</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">EDUCATION</a></li>
+        <li><a href="#">WORK EXPERIENCE</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">THIS IS ME</h3>
+  <img src="https://scontent.fbkk12-1.fna.fbcdn.net/v/t1.0-9/87454640_2873731682694619_7837539545322094592_n.jpg?_nc_cat=101&_nc_sid=09cbfe&_nc_ohc=uwc2m_04v5YAX9yc-IF&_nc_ht=scontent.fbkk12-1.fna&oh=19358c8a1e8b157291775f59e9471cea&oe=5F33E6BB" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+  <h3>NITTHA KOOHATAMMAKUN </h3>
 </div>
-<div class="alert alert-secondary" role="alert">
-  A simple secondary alert—check it out!
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">EDUCATION</h3>
+  <p> B.SC. CHEMISTRY  </p>
+  <p> M.SC. CHEMISTRY  </p>
+  <a href="#" class="btn btn-default btn-lg">
+    <span class="glyphicon glyphicon-search"></span> Search
+  </a>
 </div>
-<div class="alert alert-success" role="alert">
-  A simple success alert—check it out!
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">    
+  <h3 class="margin">WORK EXPERIENCE</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>TUTOR</p>
+      <img src="https://scontent.fbkk12-4.fna.fbcdn.net/v/t1.0-9/58689279_2238615622872898_8496221497977733120_o.jpg?_nc_cat=110&_nc_sid=84a396&_nc_ohc=HIOY71YGjcAAX_gbs5A&_nc_ht=scontent.fbkk12-4.fna&oh=47e9327399898959296a561f1c53b0f0&oe=5F33180A" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>CONSULTANT</p>
+      <img src="https://scontent.fbkk12-1.fna.fbcdn.net/v/t1.0-9/92580301_2967550733312713_8681942450861768704_n.jpg?_nc_cat=106&_nc_sid=8bfeb9&_nc_ohc=5y9drZu2yEIAX9nRUUj&_nc_ht=scontent.fbkk12-1.fna&oh=8bed53ed0b475d998d4cdd85810a4a62&oe=5F34EF1C" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>RESEARCH ASSISTANT</p>
+      <img src="https://scontent.fbkk8-4.fna.fbcdn.net/v/t1.0-9/55752447_2191391337595327_1428903308340232192_o.jpg?_nc_cat=100&_nc_sid=84a396&_nc_ohc=aDvaZn4G9okAX94FM2_&_nc_ht=scontent.fbkk8-4.fna&oh=5139cc6fa96ff7db948d79e8859749c2&oe=5F363B59" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+  </div>
 </div>
-<div class="alert alert-danger" role="alert">
-  A simple danger alert—check it out!
-</div>
-<div class="alert alert-warning" role="alert">
-  A simple warning alert—check it out!
-</div>
-<div class="alert alert-info" role="alert">
-  A simple info alert—check it out!
-</div>
-<div class="alert alert-light" role="alert">
-  A simple light alert—check it out!
-</div>
-<div class="alert alert-dark" role="alert">
-  A simple dark alert—check it out!
-</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p>CONTACT </p>
+  <p> n.koohatammakun@gmail.com </p>
+</footer>
+
 </body>
 </html>
