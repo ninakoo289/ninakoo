@@ -1,4 +1,10 @@
-@charset "utf-8";
+<title>My Website</title>
+<head> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head> 
+
+<style>
 body {
   font: 32px Montserrat, sans-serif;
   line-height: 1.8;
@@ -12,7 +18,7 @@ p {font-size: 16px;}
 }
 .bg-2 { 
   background-color: paleturquoise;
-  color: #ffffff;
+  color:rgb(241, 33, 33);
 }
 .bg-3 { 
   background-color: #ffffff; 
@@ -40,4 +46,5 @@ p {font-size: 16px;}
 }
 </style>
 </head>
-<body>
+</body>
+
